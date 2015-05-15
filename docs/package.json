@@ -1,0 +1,25 @@
+{
+  "name": "cloudy-skies",
+  "version": "1.0.0",
+  "description": "Single-page theme and starter kit for Jekyll sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulrayes/cloudy-skies.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Paul Rayes <pjoerayes@live.com>",
+  "license": "apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paulrayes/cloudy-skies/issues"
+  },
+  "homepage": "https://github.com/paulrayes/cloudy-skies",
+  "dependencies": {
+    "html-minifier": "^0.7.2"
+  }
+}

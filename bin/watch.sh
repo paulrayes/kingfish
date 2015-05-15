@@ -15,7 +15,7 @@ fi
 ${BIN}gulp watch | ${BIN}bunyan --output short --color --time local &
 
 # Jekyll build
-(cd ${DIR}/docs && bundle exec jekyll build --watch) &
+(cd ${DIR}/docs && sh watch.sh) &
 
 # Start the demo server
 (cd ${DIR} && ${BIN}nodemon demo/server.js)

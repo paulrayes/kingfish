@@ -31,14 +31,10 @@
     "babel": "^5.2.17",
     "bunyan": "^1.3.5",
     "express": "^4.12.3",
-    "gaze-cli": "^0.2.0",
     "gulp": "^3.8.11",
-    "html-minifier": "^0.7.2",
     "nodemon": "^1.3.7",
     "serve-static": "^1.9.2",
-    "tollan-gulp": "*",
-    "uglify-js": "^2.4.21",
-    "wofffontloader": "^0.1.0"
+    "tollan-gulp": "*"
   },
   "dependencies": {
     "isbrowser": "0.0.4",
