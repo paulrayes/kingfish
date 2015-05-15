@@ -13,5 +13,8 @@ ga: UA-63026502-1 # Google Analytics
 markdown: kramdown
 
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  input: GFM # GitHub-flavored markdown for more features
+  syntax_highlighter: rouge # Allows us to use ```-style fenced code blocks
+
+# Don't need these
+exclude: [node_modules, Gemfile, README.md, LICENSE, watch.sh, build.sh, update.sh, package.json]

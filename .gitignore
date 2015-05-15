@@ -3,3 +3,6 @@ build
 _site
 .sass-cache
 dploy.yaml
+
+# My own build script, it's got passwords in it
+ftp.sh
