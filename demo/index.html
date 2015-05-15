@@ -1,0 +1,36 @@
+<!doctype html>
+
+<!-- HTML template for all pages -->
+
+<!--
+Never change styling on links, this will allow us to see exactly what parts
+of the page are re-painted when the URL changes using Chrome's devtools.
+-->
+<style>
+a, a:hover, a:active {
+	color: blue;
+	outline: none;
+}
+</style>
+
+<!--
+Top menu. This is rendered outside the page contents as it doesn't change on
+different pages. In a real application you would likely have an "active" class
+you want to apply, in that case you can either update these manually or include
+it in your top-level routes.
+-->
+<a href="/">Home</a>
+<a href="/blog/">Blog</a>
+<a href="/blog/post/2">Blog 2</a>
+<a href="/blog/post/3">Blog 3</a>
+<a href="/blog/post/3" target="_blank">Blog new window</a>
+<a href="http://google.com">Google</a>
+<a href="mailto:paul@rayes.io">mailto</a>
+<a href="/disc.html" rel="external">disc</a>
+<a href="/kingfish/" rel="external">docs</a>
+
+<!-- Placeholder for rendered content -->
+<div id="content"></div>
+
+<!-- Javascript, this should be at the bottom so we don't block rendering for them -->
+<script src="/main.js"></script>

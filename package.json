@@ -1,0 +1,47 @@
+{
+  "name": "kingfish",
+  "version": "0.1.0",
+  "description": "Router for byte-conscious isomorphic applications designed for use with Browserify.",
+  "main": "build/lib/kingfish.js",
+  "browserify": {
+    "transform": [
+      "isbrowser",
+      "envify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh bin/build.sh",
+    "watch": "sh bin/watch.sh"
+  },
+  "author": "Paul Rayes <paul@rayes.io>",
+  "license": "apache-2.0",
+  "homepage": "http://www.rayes.io/kingfish/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulrayes/kingfish.git"
+  },
+  "keywords": [
+    "route",
+    "router",
+    "routing",
+    "isomorphic"
+  ],
+  "devDependencies": {
+    "babel": "^5.2.17",
+    "bunyan": "^1.3.5",
+    "express": "^4.12.3",
+    "gaze-cli": "^0.2.0",
+    "gulp": "^3.8.11",
+    "html-minifier": "^0.7.2",
+    "nodemon": "^1.3.7",
+    "serve-static": "^1.9.2",
+    "tollan-gulp": "*",
+    "uglify-js": "^2.4.21",
+    "wofffontloader": "^0.1.0"
+  },
+  "dependencies": {
+    "isbrowser": "0.0.4",
+    "envify": "^3.4.0"
+  }
+}

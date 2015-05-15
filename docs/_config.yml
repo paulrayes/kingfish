@@ -1,0 +1,17 @@
+# Site settings
+title: kingfish
+email: paul@rayes.io
+description: Router for byte-conscious isomorphic applications designed for use with Browserify.
+baseurl: "/kingfish" # the subpath of your site, e.g. /blog
+url: "http://www.rayes.io" # the base hostname & protocol for your site
+github:  paulrayes/kingfish
+npm: kingfish
+prodFontUrl: http://www.rayes.io/fonts/
+ga: UA-63026502-1 # Google Analytics
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
